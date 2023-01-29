@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:layout_width="356dp"
+        android:layout_height="486dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:padding="0dp">
+
+        <RelativeLayout
+            android:id="@+id/vaccineCard"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/radius">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/book" />
+
+            <TextView
+                android:id="@+id/bookslot"
+                android:layout_width="230dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Book Vaccine Slot"
+                android:textColor="#0B0A0A"
+                android:textSize="27dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/viewProfile"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/vaccineCard"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/bradius">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/profile" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="30dp"
+                android:text="View Profile"
+                android:textColor="#070707"
+                android:textSize="27dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/viewProfile"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/radius">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="102dp"
+                android:layout_marginTop="28dp"
+                android:text="LOGOUT"
+                android:textColor="#0E0E0E"
+                android:textSize="27dp" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-50dp"
+        app:srcCompat="@drawable/dgindiadg" />
+</RelativeLayout>

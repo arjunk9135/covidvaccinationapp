@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false"><![CDATA[
+        ]]><item>@font/</item>
+        <item>@font/artifika</item>
+        <item>@font/audiowide</item>
+        <item>@font/autour_one</item>
+        <item>@font/carter_one</item>
+        <item>@font/cherry_swash</item>
+        <item>@font/krona_one</item>
+    </array>
+</resources>
